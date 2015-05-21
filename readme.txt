@@ -8,34 +8,26 @@ Author URI: http://www.verbatimsolutions.com/
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Stable tag: trunk
-Tags: translation, translator, verbingo_translator, file translation
-- first Test release
-Provide facility to the Users of translating their site in their language in one click with the Verbingo-Translator plugin. it also facilitate users for file translation
+Tags: translation, translator, verbingo translator, file translation
+Verbingo Translator is a product of Verbatim Solutions which is one of the leading translation companies in the world.
+   
 == Description ==
-This test release. we are still improving it.
-
-This is a very simple Verbingo translation Interface. 
-
-It only contains Surce Langaue, Target Language, Email and Upload File option. 
-
-Use shortcode [verbingo_translate] to display form on page or use the widget to display form in sidebar.
+This plugin is based on Verbingo API which can handle over 100 languages and the number of language keep on increaseing.  The plugin allows both html page translation and also allows the user to load a file and get a translation file emailed.  Both types of translation are machine based (MT).  Html translation can be edited by the user from the admin interface.  File translations allow translation of popular file formats like MS WOrd, Pdf, Idml, Txt, Html etc. Verbation Solutions also provides professional translation services.  For further information please contact us on tim@verbatimsolutions.com.
+For file translation one will need to use shortcode [verbingo_translate] to display file upload interface.
 
 = Translation =
-More than 100 Language Translaiton are included
-
-= Credits =
-Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
-
-I used these scripts for developing the Verbingo translation Interface:
-
-These scripts are released under the GNU General Public License v3 or later.
+More than 100 Languages are available.
 
 == Installation == 
-During Installation Two tables will be installed automatically on wordoress data. 1) Translation 2) ver_selected
-
-After installation please add shortcode [verbingo_translate] on your contactpage for displaying the form. 
-
+Copy the plugin in plugin folder and then activate it from the admin side.
+After installation please add shortcode [verbingo_translate] on your website page for displaying the file upload interface. 
 In this case file will be send to our website and response translated file will be sent on your email
+
+== Screenshots ==
+
+1. Languages can be selected from this screen.
+2. This screen shot display the file upload interface. when admin adds shortcode, then users can see this interface
+3. This is the Editor Screen. Admin can edit translation here.
 
 == Frequently Asked Questions ==
 = Why am I not receiving Translated File? =

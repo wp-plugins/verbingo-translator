@@ -30,7 +30,7 @@
                     {
                         $this->verbingo_recursiveIteration_fetechByTagName($dom, $rootElement,$s_lang,$target);
                         $Translated=$dom->saveHTML();
-                        echo $Translated;
+                        return $Translated;
                     }
                     else
                     {

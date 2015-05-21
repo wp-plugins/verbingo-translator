@@ -1,0 +1,164 @@
+/* Verbingo Transalation interface */
+#verbingo {clear:both;}
+#verbingo p {margin:0 0 10px;}
+
+/* Label and Input fields */
+#verbingo label {font-size:1em; text-transform:none; font-weight:normal;}
+#verbingo_name, #ver_subject, #ver_email {border:1px solid #ccc; padding:5px; font-size:1em; width:50%;}
+
+
+/* Upload button */
+#btn_upload {padding:5px; width:8em; border:1px solid #D0D; background:#f8f8f8; color:#333; font-size:1em; text-transform:none; font-weight:normal;}
+#btn_upload:hover {background:#f2f2f2;} 
+
+/* Display Lanuguages */
+
+#sortable {list-style-type:none; margin:0; padding:0;}
+#sortable li { width:190px; height:14px; padding:5px; float:left; margin:3px 3px 3px 0; }
+/* Error and Thank You message */
+#verbingo .error {color:#e77776;}
+#verbingo .hide {display:none;}
+.verbingo_info {margin:0 0 10px; font-style:italic; font-size:1.25em;}
+
+/*............... Editor Style........ */
+
+.yell_tag li {
+    background: none repeat scroll 0 0 #e1e8ed;
+    border-bottom: 1px solid #0084b4;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: auto;
+    list-style: none outside none;
+    margin: 0;
+    min-height: 40px;
+    padding: 4px 2%;
+    width: 96%;
+}
+
+.yell_tag li:hover {
+    background: none repeat scroll 0 0 #eeeeee;
+}
+.yell_tag
+{
+    background: no-repeat scroll 6% 0 20px auto rgba(0, 0, 0, 0);
+    border-radius: 0 0 3px 3px;
+    display: none;
+    float: left;
+    margin-top: 0;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 0 0;
+    position: fixed;
+    width: 47%;
+    z-index:2147483647;
+    
+}
+div.languageselect
+{
+    margin-left: 30px;
+    float: left;
+}
+div.text { 
+  margin-left: 10px;
+  float: left; 
+  padding-bottom: 1.25em; 
+} 
+
+div.text label { 
+  margin: 0; 
+  padding: 0; 
+  display: block; 
+  font-size: 100%; 
+  padding-top: 0.1em; 
+  padding-right: 5.25em; 
+  width: 8em; 
+  text-align: right; 
+  float: left; 
+} 
+
+div.text input, 
+div.text textarea { 
+  margin: 0; 
+  padding: 0; 
+  display: block; 
+  font-size: 100%; 
+} 
+
+input:active, 
+input:focus, 
+input:hover, 
+textarea:active, 
+textarea:focus, 
+textarea:hover { 
+background-color: lightyellow;  
+} 
+/*...............Editor End.........*/
+
+/* Drag and Drop */
+.upload-drop-zone { height: 70px; border-width: 2px; width: 294px; color: #D0D;  border-style: dashed; border-color: #D0D;  line-height: 60px; text-align: center; }
+
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+.hidebox
+{
+	display:none; 
+	position:absolute; 
+	font-size: 12px; 
+	background-color:rgb(230, 230, 230); 
+	z-index:2147483647; padding: 0px; 
+    width: 500px;
+	color: rgb(0, 0, 0); 
+	line-height: normal; direction: ltr; 
+	text-align: left; left: 520.03125px; 
+	margin: 0px; 
+	border: 2px solid rgb(210, 210, 210);
+}  
+
+#icon-transposh-logo {
+background:url( '../img/tplogo32.png ') no-repeat;
+}
+
+
+.language {
+border-radius:6px;
+border-style:solid;
+border-width:1px;
+line-height:1;
+cursor: pointer;
+}
+
+.highlight {
+-moz-border-radius:6px;
+-khtml-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+border-style:solid;
+border-width:1px;
+line-height:1;
+background:#FFE45C!important;
+width:190px;
+height:14px;
+}
+
+.highlight_default {
+background:#FFE45C!important;
+}
+
+.lng_active {
+background:#45FF51!important;
+}
+
+.hidden {
+display:none;
+}
+
+.logoicon {
+float:right;
+margin-left:2px;
+margin-top:-1px;
+}
+  

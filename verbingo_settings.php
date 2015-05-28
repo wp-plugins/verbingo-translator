@@ -96,11 +96,11 @@ function verbingo_translate_process()
      $language=sanitize_text_field($_POST['language']);
      $Translated=$Oject->verbingo_iserttranslation('load',$language,$urlpath);
      echo $Translated;
-     exit;
+     //exit;
 }
 function verbingo_editor_process()
 {
-         $text=$source($_POST['text']);
+        $text=$_POST['text'];
         $search_text = "%".$text."%";
         $code=sanitize_text_field($_POST['code']);
         global $wpdb;

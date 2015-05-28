@@ -1,4 +1,5 @@
-var base_url= window.location.origin+'/';
+var h1=window.location.pathname;
+var base_url= window.location.origin+h1;
 var URLpath=document.URL;  
 jQuery(document).ready(function(){
    
@@ -58,7 +59,7 @@ jQuery("#gettranslationtext").bind("change paste keyup", function(e)
    var code = jQuery("#langaugeselected").val();
   
      jQuery("#gettextoriginal").html('');
-     base_url=base_url.replace('/wp-admin','');
+     base_url=base_url.replace('/wp-admin/admin.php','');
  console.log( "Handler for .keypress() called." + e.keyCode);
  jQuery.post(base_url+'/wp-admin/admin-ajax.php', {action: 'verbingo_editor', text:text,code:code},function(data){
                 

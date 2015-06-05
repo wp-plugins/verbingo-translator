@@ -10,7 +10,7 @@ Author URI: http://www.verbatimsolutions.com/
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tested up to: 4.2.2
-Stable tag: trunk
+Stable tag: 4.1
 Tags: translation, translator, verbingo translator, file translation
 Verbingo Translator is a product of Verbatim Solutions which is one of the leading translation companies in the world.
    

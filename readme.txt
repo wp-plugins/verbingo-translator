@@ -1,4 +1,3 @@
-<<<<<<< .mine
 === Verbingo Translator===
 Contributors: Verbatim Solutions
 Donate link: http://www.verbatimsolutions.com/

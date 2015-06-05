@@ -1,6 +1,5 @@
 === Verbingo Translator===
 Contributors: Verbatim Solutions
-Donate link: http://www.verbatimsolutions.com/
 Plugin Name: verbingo-translator
 Description: This is a verbingo. Use shortcode [verbingo_translate] to display form on page or use the widget. For more info please check readme file.
 Version: 1.0

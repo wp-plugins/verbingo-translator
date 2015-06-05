@@ -1,12 +1,13 @@
 === Verbingo Translator===
 Contributors: Verbatim Solutions
 Plugin Name: verbingo-translator
-Tags: translation, translator, verbingo translator, file translation
+Description: This is a verbingo. Use shortcode [verbingo_translate] to display form on page or use the widget. For more info please check readme file.
 Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tested up to: 4.2.2
 Stable tag: trunk
+Tags: translation, translator, verbingo translator, file translation
 Verbingo Translator is a product of Verbatim Solutions which is one of the leading translation companies in the world.
    
 == Description ==
@@ -71,4 +72,3 @@ In this case file will be send to our website and response translated file will 
 
 2) Check info about installation and check shortcode for mistakes.
 
->>>>>>> .r1175189

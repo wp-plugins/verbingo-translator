@@ -1,14 +1,13 @@
 === Verbingo Translator===
 Contributors: Verbatim Solutions
 Plugin Name: verbingo-translator
-Description: This is a verbingo. Use shortcode [verbingo_translate] to display form on page or use the widget. For more info please check readme file.
+Tags: translation, translator, verbingo translator, file translation
 Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tested up to: 4.2.2
 Stable tag: trunk
 Verbingo Translator is a product of Verbatim Solutions which is one of the leading translation companies in the world.
-Tags: translation, translator, verbingo translator, file translation
    
 == Description ==
 This plugin is based on Verbingo API which can handle over 100 languages and the number of language keep on increaseing.  The plugin allows both html page translation and also allows the user to load a file and get a translation file emailed.  Both types of translation are machine based (MT).  Html translation can be edited by the user from the admin interface.  File translations allow translation of popular file formats like MS WOrd, Pdf, Idml, Txt, Html etc. Verbation Solutions also provides professional translation services.  For further information please contact us on tim@verbatimsolutions.com.

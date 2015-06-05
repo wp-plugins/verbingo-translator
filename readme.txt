@@ -3,7 +3,6 @@ Contributors: Verbatim Solutions
 Plugin Name: verbingo-translator
 Description: This is a verbingo. Use shortcode [verbingo_translate] to display form on page or use the widget. For more info please check readme file.
 Version: 1.0
-Plugin URI: http://www.verbatimsolutions.com/
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tested up to: 4.2.2

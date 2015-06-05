@@ -13,7 +13,8 @@ Tags: translation, translator, verbingo translator, file translation
 Verbingo Translator is a product of Verbatim Solutions which is one of the leading translation companies in the world.
    
 == Description ==
-This plugin is based on Verbingo API which can handle over 100 languages and the number of language keep on increaseing.  The plugin allows both html page translation and also allows the user to load a file and get a translation file emailed.  Both types of translation are machine based (MT).  Html translation can be edited by the user from the admin interface.  File translations allow translation of popular file formats like MS WOrd, Pdf, Idml, Txt, Html etc. Verbation Solutions also provides professional translation services.  For further information please contact us on tim@verbatimsolutions.com.
+This plugin is based on Verbingo API which can handle over 100 languages and the number of language keep on increaseing.  The plugin allows html page translation and also allows the user to load a file and get a translation file emailed.  Both types of translation are machine based (MT).  When you select a language from the dropdown menu on a page which has not been translated before then the tranlator takes a little bit of time depending on the size of the page.  After the first time the data for that page gets loaded in the database which makes the tranlation very fast for any subsequent visits.  
+Html translation can be edited by the user from the admin interface.  File translations allow translation of popular file formats like MS WOrd, Pdf, Idml, Txt, Html etc. Verbation Solutions also provides professional translation services.  For further information please contact us on tim@verbatimsolutions.com.
 For file translation one will need to use shortcode [verbingo_translate] to display file upload interface.
 
 = Translation =

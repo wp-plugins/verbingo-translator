@@ -1,5 +1,5 @@
-var h1=window.location.pathname;
-var base_url= window.location.origin+h1;
+var base_url=jQuery("#siteurlid").val();
+base_url=base_url.replace('/wp-content/plugins','');
 var URLpath=document.URL;  
 jQuery(document).ready(function(){
    

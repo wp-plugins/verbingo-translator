@@ -9,6 +9,7 @@
  License: GNU General Public License v3 or later
 */
 define('ABSPATH', dirname(__FILE__) . '/');
+error_reporting(0);
 // Enqueues plugin scripts
 function verbingo_scripts() {	
 	if(!is_admin())

@@ -30,7 +30,6 @@ $_SESSION['verbingo-rand'] = isset($_SESSION['verbingo-rand']) ? $_SESSION['verb
 add_action('init', 'verbingo_register_shortcodes');
 function verbingo_register_shortcodes() {
     //register shortcode   
-	echo '<input type="hidden" value="'.plugins_url().'" id="siteurlid" />';
     add_shortcode('verbingo_translate', 'verbingo_shortcode');
 }
 // The shortcode

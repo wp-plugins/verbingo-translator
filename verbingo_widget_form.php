@@ -38,8 +38,8 @@ function verbingo_widget_shortcode($atts) {
 		<select name="lang_widget" id="lang_widget" onchange="changelanguage(this.value);">'
         .$languageeidget.
         '</select>
+       <input type="hidden" value="'.site_url().'" id="idbase">
 	</form>';
-
 	if($sent == true) {
 		unset($_SESSION['verbingo-widget-rand']);
 		return $info;

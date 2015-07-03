@@ -161,7 +161,6 @@
 
         echo '<div id="default_lang" style="overflow:auto;padding-bottom:10px;">
         <h3> Select Languages From Here</h3>
-         <input type="hidden" value="'.site_url().'" id="idbase">
         </div>';
         // list of languages
         echo '<form method="post" action="" enctype="multipart/form-data"><div style="overflow:auto; clear: both; margin-top: -2%;">';
@@ -382,7 +381,7 @@
         echo '<br><form name="changetext"><div class="text">';
         echo _e('<label for="pagetitle">Select Page Title</label>'). '<select name="pagetitle" id="pagetitles">';
         
-        echo '<option value="">No Need</option><input type="hidden" value="'.site_url().'" id="idbase">';
+        echo '<option value="">No Need</option>';
         echo '</select></div><div class="text"><label class="languagecode">Select Language</label><select name="languagecode" id="langaugeselected">';
         
            foreach($languagecode as $data)

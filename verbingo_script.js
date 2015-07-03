@@ -1,9 +1,7 @@
-var base_url;
+var base_url= window.location.origin;
 //base_url=base_url.replace('/wp-content/plugins','');
 var URLpath=document.URL;  
 jQuery(document).ready(function(){
-    
-    base_url=document.getElementById("idbase").value;
     
     var language=jQuery('#lang_widget :selected').val();
    if(language=='en' || typeof language == 'undefined' || language=='')

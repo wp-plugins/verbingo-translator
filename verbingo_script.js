@@ -17,10 +17,12 @@ jQuery(document).ready(function(){
                 } 
                 else
                 {   
-                    jQuery("html").remove();
+                    //jQuery("html").remove();
                 jQuery.post(base_url+'/wp-admin/admin-ajax.php', {action: 'verbingo_translate', URLpath : URLpath,language : language},function(data){
+                document.open();
                 document.write('');
-                document.write(data);
+				document.write(data);
+                document.close();
                 jQuery('#lang_widget option[value='+language+']').attr('selected','selected');
     	         });
                 

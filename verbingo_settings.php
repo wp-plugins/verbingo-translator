@@ -124,7 +124,9 @@ function verbingo_edit_process()
          exit();     
 }
 add_action('wp_ajax_verbingo_translation','verbingo_translation_process');
+add_action( 'wp_ajax_nopriv_verbingo_translation', 'verbingo_translation_process');
 add_action('wp_ajax_verbingo_translate','verbingo_translate_process');
+add_action( 'wp_ajax_nopriv_verbingo_translate', 'verbingo_translate_process');
 add_action('wp_ajax_verbingo_editor','verbingo_editor_process');
 add_action('wp_ajax_verbingo_edit','verbingo_edit_process');
 // Includes All pages

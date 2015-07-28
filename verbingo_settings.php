@@ -97,7 +97,7 @@ function verbingo_translate_process()
      $language=sanitize_text_field($_POST['language']);
      $Translated=$Oject->verbingo_iserttranslation('load',$language,$urlpath);
      echo $Translated;
-     //exit;
+     die();
 }
 function verbingo_editor_process()
 {
